@@ -1,0 +1,2 @@
+FROM sonatype/nexus3:latest
+RUN chown -R ${NEXUS_USER}:${NEXUS_USER} ${NEXUS_HOME} ${NEXUS_DATA} ${SONATYPE_WORK}
